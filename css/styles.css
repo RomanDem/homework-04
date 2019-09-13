@@ -39,7 +39,7 @@ img {
 
 .container {
     width: 1600px;
-    margin: auto;
+    margin: 0 auto;
 }
 
 .container2 {
@@ -210,7 +210,8 @@ p.products-name {
     background-color: #1abc9c;
 }
 
-.products-card:focus p.products-name {
+.card:focus p.products-name,
+.card:focus p.products-price {
     background-color: #1abc9c;
 }
 
